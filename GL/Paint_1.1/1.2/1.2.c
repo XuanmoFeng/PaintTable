@@ -171,7 +171,7 @@ gint main(int argc,char *argv[])
 	GtkWidget *Menubox;
 	MTbox=gtk_vbox_new(FALSE,0);
 	gtk_container_add(GTK_CONTAINER(MainWin),MTbox);
-	LableTool(MTbox);
+	//LableTool(MTbox);
 	GtkWidget *PaintMap;
 	PaintMap =gtk_button_new_with_label("jjj");
 	gtk_box_pack_start(GTK_BOX(MTbox),PaintMap,FALSE,FALSE,0);
